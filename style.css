@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Pacifico&display=swap');
+
+html, body {
+  background-color: #232020;
+  min-width: 500px;
+}
+
+h1 {
+   display: block;
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff7315;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#instructions {
+  color: white;
+}
+
+.instruction {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  width: 50%;
+  margin:10px auto;
+}
+
+.plus {
+  background-color: #f67280;
+
+}
+
+.moins {
+  background-color: #ffa372;
+}
+
+.fini {
+  background-color : #0c9463;
+}
+
+button {
+  cursor: pointer;
+  padding: 17px 30px;
+  font-size: 1.3em;
+  border-radius: 3px;
+  background:#ee6123;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 0 rgb(0,0,0,0.4);
+
+
+}
+input{
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 0 rgb(0,0,0,0.4);
+  padding:17px 30px;
+  width: 30%;
+  font-size: 1.3em;
+  background:#BBB591;
+  font-weight: 700;
+  text-align: center;
+}
+form{
+text-align: center;
+margin-top: 30px;
+
+}
+small{
+  width:30%;
+  background-color: darkorange;
+  color: aliceblue;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px;
+  position: relative;
+  top: 20px;
+  }
+  
